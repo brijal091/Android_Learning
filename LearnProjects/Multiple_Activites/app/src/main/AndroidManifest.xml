@@ -13,6 +13,7 @@
             android:name=".MainActivity2"
             android:label="Second Activity"
             android:exported="false"
+<!--            By doing this we are telligng android that add one back button here to go the parent activity, you can find back arrow button near lable name kof an activity-->
             android:parentActivityName=".MainActivity"
             />
         <activity
